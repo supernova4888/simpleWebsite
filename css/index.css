@@ -1,0 +1,41 @@
+/* Problem1: on full screen is cutting the head of the dog because the picture gets strecthed as i expand the window.
+    - so i need to set a max size/widht so it doesnt strecth more than X.
+problem2: on mobile is cutting the image */
+
+.middle-main {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.middle-main img {
+  min-width: 300px;
+  max-width: 80%;
+  height: auto;
+  margin-bottom: var(--space-medium);
+}
+
+.middle-main h1 {
+  font-family: "Monoton", cursive;
+  color: blue;
+  background-color: lightcyan;
+}
+
+.middle-main h2 {
+  font-size: 15px;
+}
+
+/* Tablet */
+@media (min-width: 550px) {
+  .middle-main h2 {
+    font-size: 25px;
+  }
+}
+
+/* Laptop and Desktop */
+@media (min-width: 750px) {
+  .middle-main h2 {
+    font-size: 35px;
+  }
+}

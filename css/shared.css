@@ -1,0 +1,15 @@
+/* import fonts */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Sans&family=Monoton&display=swap");
+
+/* font-family: "Monoton", cursive;
+font-family: "Josefin Sans", sans-serif;
+ */
+
+/* Body */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+}

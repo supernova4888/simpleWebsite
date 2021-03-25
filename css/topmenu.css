@@ -1,0 +1,43 @@
+/* Style for header */
+.topsection nav {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.topsection nav a {
+  padding: var(--space-small);
+  text-decoration: none;
+  color: black;
+}
+
+.topsection nav img {
+  width: 40px;
+  height: auto;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+
+/* Tablet iPad */
+@media (min-width: 550px) {
+  .topsection nav {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .topsection .nav a {
+    margin-left: 30px;
+  }
+}
+
+/* Laptop and Desktop */
+@media (min-width: 750px) {
+  .topsection nav {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .topsection nav a {
+    margin-left: 100px;
+  }
+}

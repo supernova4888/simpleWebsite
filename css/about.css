@@ -1,0 +1,40 @@
+.about-main {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  place-items: center;
+}
+.about-main h1 {
+  font-family: "Monoton", cursive;
+  color: blue;
+  background-color: lightcyan;
+}
+
+.about-main p {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+}
+
+.about-main img {
+  min-width: 300px;
+  max-width: 80%;
+  height: auto;
+  margin-bottom: var(--space-medium);
+}
+
+/* Tablet */
+@media (min-width: 550px) {
+  .about-main p {
+    font-size: 25px;
+  }
+}
+
+/* Laptop and Desktop */
+@media (min-width: 750px) {
+  .about-main p {
+    font-size: 35px;
+  }
+}

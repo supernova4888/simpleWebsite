@@ -1,0 +1,37 @@
+h1 {
+  font-family: "Monoton", cursive;
+  color: blue;
+  background-color: lightcyan;
+}
+
+.cupcakes h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cupcakes h3 {
+  font-size: 20px;
+}
+
+.all-cupcakes {
+  margin-left: 10px;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.weddingcakes h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.all-weddingcakes {
+  margin-left: 10px;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
