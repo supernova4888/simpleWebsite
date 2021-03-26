@@ -5,10 +5,10 @@
   margin-right: 3px;
 }
 
-.contactform h2 {
-  margin-left: 0px;
+.contactform .contactitle {
   font-size: 17px;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .contactform input {
