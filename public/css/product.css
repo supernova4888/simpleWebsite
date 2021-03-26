@@ -17,7 +17,7 @@ h1 {
 .all-cupcakes {
   margin-left: 10px;
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
@@ -32,6 +32,6 @@ h1 {
 .all-weddingcakes {
   margin-left: 10px;
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
