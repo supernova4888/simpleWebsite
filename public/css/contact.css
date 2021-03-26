@@ -1,6 +1,8 @@
 .contactform {
   display: grid;
   place-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .contactform input {
