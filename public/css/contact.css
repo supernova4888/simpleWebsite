@@ -6,9 +6,9 @@
 }
 
 .contactform .contactitle {
-  font-size: 10px;
-  display: flex-wrap;
+  display: grid;
   place-items: center;
+  font-size: 10px;
 }
 
 .contactform input {
