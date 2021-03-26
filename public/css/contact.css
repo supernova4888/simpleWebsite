@@ -5,12 +5,6 @@
   margin-right: 3px;
 }
 
-.contactform .contactitle {
-  display: grid;
-  place-items: center;
-  font-size: 10px;
-}
-
 .contactform input {
   margin-top: var(--space-small);
   margin-bottom: var(--space-small);
