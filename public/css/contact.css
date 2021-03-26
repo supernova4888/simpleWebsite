@@ -6,8 +6,9 @@
 }
 
 .contactform h2 {
-  margin-left: 2px;
+  margin-left: 0px;
   font-size: 17px;
+  align-items: center;
 }
 
 .contactform input {
