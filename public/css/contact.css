@@ -7,7 +7,7 @@
 
 .contactform .contactitle {
   font-size: 10px;
-  display: grid;
+  display: flex-wrap;
   place-items: center;
 }
 
