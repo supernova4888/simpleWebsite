@@ -1,16 +1,9 @@
-.middle-main {
-  margin-left: 10px;
-  margin-right: 10px;
-  display: grid;
-  place-items: center;
-}
-
 .contactform {
   display: grid;
   place-items: center;
 }
 
-/* .contactform input {
+.contactform input {
   margin-top: var(--space-small);
   margin-bottom: var(--space-small);
-} */
+}
