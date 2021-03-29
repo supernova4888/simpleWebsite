@@ -1,7 +1,3 @@
-/* Problem1: on full screen is cutting the head of the dog because the picture gets strecthed as i expand the window.
-    - so i need to set a max size/widht so it doesnt strecth more than X.
-problem2: on mobile is cutting the image */
-
 .middle-main {
   margin-left: 10px;
   margin-right: 10px;
